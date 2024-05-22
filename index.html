@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantity Increment Decrement</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <img src="./img/watch.png" class="product-img" />
+        <div class="product-container">
+            <h1 class="product-title">Gold Watch</h1>
+            <p class="product-description">
+                Rose Dial Analogue Fashion Watch with Steel Strap For Women.
+            </p>
+            <div class="quantity-container">
+                <span class="product-price" id="product-price">₹ 4,099 </span>
+                <div class="quantity-btn-container">
+                    <img src="./img/minus.png" class="quantity-img" onclick="decrement()" />
+                    <span class="quantity-text" id="quantity-text">1</span>
+                    <img src="./img/add.png" class="quantity-img" onclick="increment()" />
+                </div>
+            </div>
+            <p class="quantity-total" id="quantity-total">Quantity : 1</p>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+    </div>
+</body>
+</html>
